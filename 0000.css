@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family:
+        'Pretendard Variable',
+        Pretendard,
+        -apple-system,
+        BlinkMacSystemFont,
+        system-ui,
+        Roboto,
+        'Helvetica Neue',
+        'Segoe UI',
+        'Apple SD Gothic Neo',
+        'Noto Sans KR',
+        'Malgun Gothic',
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol',
+        sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.sr_only {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    border: 0px;
+    clip: rect(0, 0, 0, 0);
+    clip-path: polygon(0 0, 0 0, 0 0);
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: rgb(127, 71, 199);
+    width: 100vw;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+li {
+    width: 100px;
+}
+
+li:hover {
+    background-color: rgb(73, 44, 102);
+    color: rgb(255, 230, 0);
+}
+
+body {
+    background-color: rgb(104, 103, 103);
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    margin: 10px auto;
+    border-radius: 20px;
+    width: 90vw;
+}
+
+.presentation1 {
+    width: 90vw;
+    height: 500px;
+    background-color: aliceblue;
+    margin: 50px auto;
+    border: none;
+    border-radius: 20px;
+
+    overflow: hidden;
+    text-align: center;
+}
+
+.presentation2 {
+    background-image: url(0000/127.0.0.1_5501_style_0000.html.png);
+    background-repeat: repeat;
+}
+
+
+.presentation2 {
+    width: 90vw;
+    height: 500px;
+    background-color: aliceblue;
+    margin: 50px auto;
+    border: none;
+    border-radius: 20px;
+}
+
+h1{font-weight: 900;}
+.presentation3 {
+    line-height: 30px;
+    text-align: center;
+font-weight: 600;
+
+    width: 90vw;
+    height: 1370px;
+    background-color: aliceblue;
+    margin: 50px auto;
+    border: none;
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    position: relative;
+    padding: 30px;
+}
+
+
+button {
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    margin: 10px;
+}
+
+.btn{display: flex;
+justify-content: center;
+flex-direction: row;}
+.btn:hover { btn{color: rgb(128, 125, 125);}}.btn1 {
+    background-color: rgb(24, 156, 19);
+}
+
+.btn2 {
+    background-color: rgb(63, 81, 240);
+}
+
+
+
